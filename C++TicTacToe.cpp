@@ -365,10 +365,6 @@ int main() {
 					bool winCondtion = true;
 				}
 
-				if (i == 9 && winCondition == false)
-				{
-					cout << "Damn you both suck";
-				}
 
 			} // END OF O LOOP!
 
