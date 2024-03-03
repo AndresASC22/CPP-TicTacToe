@@ -4,7 +4,8 @@ using namespace std;
 
 int main() {
 	char TicTacToe[3][3];
-	int UserInputs;
+	int UserInputs, i;
+	bool winCondition = false;
 	for (int i = 0; i < 3; i++) //Giving each array element a value of 0
 	{
 		for (int j = 0; j < 3; j++)
@@ -22,7 +23,7 @@ int main() {
 
 	cout << "Enter an X and O to play Tic Tac Toe. X moves first, first to have three of their letters in a row wins" << endl;
 
-	for (int i = 0; i < 9; i++) //The max amount of moves in tic tac toe is 
+	for (i = 0; i < 9; i++) //The max amount of moves in tic tac toe is 
 	{
 		for(int j = 0; j < 1; j++) //This loop ensures that if invalid number is input, we can ask the user to reput the number
 		{ //NOTE: If you enter something besides a number, the programs gets fucked up, I have yet to find out why. I think it may be the fact the Array is a char and not an integer
@@ -129,7 +130,7 @@ int main() {
 					}
 				}
 
-				else
+				else if(UserInputs)
 				{
 					cout << "Invalid Input, try again";
 					j--;
@@ -141,49 +142,58 @@ int main() {
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 	
 				if (TicTacToe[1][0] == 88 && TicTacToe[1][1] == 88 && TicTacToe[1][2] == 88) //Win Condition 2
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[2][0] == 88 && TicTacToe[2][1] == 88 && TicTacToe[2][2] == 88) //Win Condition 3
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][0] == 88 && TicTacToe[1][1] == 88 && TicTacToe[2][2] == 88) //Win Condition 4
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][2] == 88 && TicTacToe[1][1] == 88 && TicTacToe[2][0] == 88) //Win Condition 5
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][0] == 88 && TicTacToe[1][0] == 88 && TicTacToe[2][0] == 88) //Win condition 6
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][1] == 88 && TicTacToe[1][1] == 88 && TicTacToe[2][1] == 88) // Win condition 7
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][2] == 88 && TicTacToe[1][2] == 88 && TicTacToe[2][2] == 88) // Win condition 8 (the final one)
 				{
 					cout << "X wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
+				
 
 			} // END OF X FOR LOOP
 
@@ -303,48 +313,61 @@ int main() {
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 				
 				if (TicTacToe[1][0] == 79 && TicTacToe[1][1] == 79 && TicTacToe[1][2] == 79) //Win Condition 2
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[2][0] == 79 && TicTacToe[2][1] == 79 && TicTacToe[2][2] == 79) //Win Condition 3
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][0] == 79 && TicTacToe[1][1] == 79 && TicTacToe[2][2] == 79) //Win Condition 4
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][2] == 79 && TicTacToe[1][1] == 79 && TicTacToe[2][0] == 79) //Win Condition 5
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][0] == 79 && TicTacToe[1][0] == 79 && TicTacToe[2][0] == 79) //Win condition 6
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][1] == 79 && TicTacToe[1][1] == 79 && TicTacToe[2][1] == 79) // Win condition 7
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
 				}
 
 				if (TicTacToe[0][2] == 79 && TicTacToe[1][2] == 79 && TicTacToe[2][2] == 79) // Win condition 8 (the final one)
 				{
 					cout << "O wins!";
 					i = 9;
+					bool winCondtion = true;
+				}
+
+				if (i == 9 && winCondition == false)
+				{
+					cout << "Damn you both suck";
 				}
 
 			} // END OF O LOOP!
@@ -354,5 +377,8 @@ int main() {
 		}
 
 	}
-
+				if (i == 9 && winCondition == false)
+				{
+					cout << "Damn you both suck";
+				}
 }
