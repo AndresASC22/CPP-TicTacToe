@@ -128,7 +128,7 @@ int main() {
 					}
 				}
 
-				else if(UserInputs)
+				else
 				{
 					cout << "Invalid Input, try again";
 					j--;
