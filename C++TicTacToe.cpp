@@ -142,56 +142,56 @@ int main() {
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 	
 				if (TicTacToe[1][0] == 88 && TicTacToe[1][1] == 88 && TicTacToe[1][2] == 88) //Win Condition 2
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[2][0] == 88 && TicTacToe[2][1] == 88 && TicTacToe[2][2] == 88) //Win Condition 3
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][0] == 88 && TicTacToe[1][1] == 88 && TicTacToe[2][2] == 88) //Win Condition 4
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][2] == 88 && TicTacToe[1][1] == 88 && TicTacToe[2][0] == 88) //Win Condition 5
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][0] == 88 && TicTacToe[1][0] == 88 && TicTacToe[2][0] == 88) //Win condition 6
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][1] == 88 && TicTacToe[1][1] == 88 && TicTacToe[2][1] == 88) // Win condition 7
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][2] == 88 && TicTacToe[1][2] == 88 && TicTacToe[2][2] == 88) // Win condition 8 (the final one)
 				{
 					cout << "X wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 				
 
@@ -313,56 +313,56 @@ int main() {
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 				
 				if (TicTacToe[1][0] == 79 && TicTacToe[1][1] == 79 && TicTacToe[1][2] == 79) //Win Condition 2
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[2][0] == 79 && TicTacToe[2][1] == 79 && TicTacToe[2][2] == 79) //Win Condition 3
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][0] == 79 && TicTacToe[1][1] == 79 && TicTacToe[2][2] == 79) //Win Condition 4
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][2] == 79 && TicTacToe[1][1] == 79 && TicTacToe[2][0] == 79) //Win Condition 5
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][0] == 79 && TicTacToe[1][0] == 79 && TicTacToe[2][0] == 79) //Win condition 6
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][1] == 79 && TicTacToe[1][1] == 79 && TicTacToe[2][1] == 79) // Win condition 7
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 				if (TicTacToe[0][2] == 79 && TicTacToe[1][2] == 79 && TicTacToe[2][2] == 79) // Win condition 8 (the final one)
 				{
 					cout << "O wins!";
 					i = 9;
-					bool winCondtion = true;
+					bool winCondition = true;
 				}
 
 
